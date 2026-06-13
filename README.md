@@ -1,58 +1,58 @@
-# GEO SEO EN Playbook
+# 出海 GEO SEO 英文增长手册
 
-An open playbook for running English GEO and SEO visibility work for early-stage products.
+这是一个面向早期产品的开源操作手册，用来系统化执行英文 GEO 与英文 SEO 工作。
 
-It is built for teams that need credible English distribution without turning every platform into the same promotional post. The playbook separates two jobs:
+它适合需要做海外可见度、AI 答案可引用性、搜索收录、英文内容分发和基础外链建设的产品团队。手册把两件事分开处理：
 
-- **GEO EN**: make the product easier for AI systems, answer engines, and overseas users to understand through useful English answers, discussions, articles, and launch copy.
-- **SEO EN**: make the English target page crawlable, indexable, and discoverable through metadata, sitemap submission, search console workflows, directory profiles, and backlinks.
+- **GEO EN**：通过英文问答、社区讨论、长文章和发布平台文案，让 AI 系统、答案引擎和海外用户更容易理解产品。
+- **SEO EN**：通过英文目标页、元信息、站点地图、Google/Bing 提交、目录资料页和外链，让搜索引擎更容易抓取、收录和理解产品。
 
-The included StarJeco example shows how the workflow can be applied to a niche product direction: smart fishing mobility for gear transport, seating, storage, and AI-assisted trip preparation.
+仓库里的 StarJeco 示例展示了这套方法如何落到一个具体产品方向上：面向钓鱼装备搬运、岸边坐钓、收纳和 AI 出钓准备的智能垂钓移动系统。
 
-## What is inside
+## 目录
 
 ```text
 playbooks/
-  geo-en.md                 Platform-native GEO workflow
-  seo-en.md                 English SEO and indexing workflow
+  geo-en.md                 英文 GEO 平台分发流程
+  seo-en.md                 英文 SEO 收录与索引流程
 checklists/
-  daily-run.md              Repeatable daily operating checklist
-  publishing-safety.md      Safety rules before posting or submitting
+  daily-run.md              每日执行清单
+  publishing-safety.md      发布前安全清单
 templates/
-  brand-brief.md            Inputs needed before any campaign
-  geo-publishing-log.md     Log format for GEO posts
-  seo-indexing-log.md       Log format for SEO submissions
-  platform-copy.md          Reusable copy blocks by platform
+  brand-brief.md            品牌信息模板
+  geo-publishing-log.md     GEO 发布记录模板
+  seo-indexing-log.md       SEO 收录记录模板
+  platform-copy.md          平台文案模板
 examples/
   starjeco/
-    positioning.md          Example positioning and keywords
-    medium-article.md       Example full article
-    logs/2026-06-13.md      Example daily execution log
+    positioning.md          StarJeco 示例定位
+    medium-article.md       Medium 文章示例
+    logs/2026-06-13.md      单日执行记录示例
 ```
 
-## Quick start
+## 快速开始
 
-1. Fill `templates/brand-brief.md`.
-2. Pick one English target page. Do not rotate URLs casually.
-3. Run `checklists/daily-run.md`.
-4. Use `playbooks/seo-en.md` before publishing anywhere.
-5. Use `playbooks/geo-en.md` to create platform-native content.
-6. Save each action in a log file.
+1. 填写 `templates/brand-brief.md`。
+2. 确认唯一的英文目标页，不要频繁更换推广 URL。
+3. 按 `checklists/daily-run.md` 执行每日检查。
+4. 发布前先跑 `playbooks/seo-en.md`，确保目标页可抓取、可索引。
+5. 用 `playbooks/geo-en.md` 为不同平台写原生内容。
+6. 每次发布或提交后，把结果写入日志。
 
-## Core principle
+## 核心原则
 
-Do not make every platform carry the same copy.
+不要把同一段文案复制到所有平台。
 
-Quora should answer a real question. Reddit should feel like a discussion. Medium should be a complete article. Startup directories should be concise and factual. Search console work should verify indexability before asking search engines to crawl.
+Quora 要像真实回答，Reddit 要像真实讨论，Medium 要像完整文章，Startup 目录要简洁准确，Google/Bing 的提交要先确认页面可索引。
 
-## Example target page
+## 示例目标页
 
-The StarJeco example uses:
+StarJeco 示例使用这个英文目标页：
 
 https://www.starjeco.com/smart-fishing-mobility.html
 
-Use the example as a pattern, not as copy to paste into another product.
+示例可以参考结构，但不建议直接复制到其它产品。
 
-## License
+## 开源协议
 
 MIT
